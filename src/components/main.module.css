@@ -1,0 +1,16 @@
+.container{
+    box-sizing: border-box;
+    border-radius: 5px;
+    box-shadow: 0 4px 8px rgba(137, 133, 133, 0.596);
+}
+
+
+.form{
+    display: grid;
+    grid-template: 40px 40px / 1fr 1fr;
+}
+
+
+.button{
+    grid-column: 1 / -1;
+}
