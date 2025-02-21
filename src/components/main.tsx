@@ -3,18 +3,20 @@ import classes from './main.module.css'
 function Main() {
   return (
     <div className={classes.container}>
-        <img className={classes.form_image} src="/reactintern-proj3-troll-face.png" alt="" />
         <form className={classes.form}>
-            <div>
-                <label>Top Text</label>
-                <input className={classes.top}type="text" name="toptext" placeholder="Enter top text here" />
+            <div className={classes.form_image}>
+                <img style={{paddingLeft:'3px'}} src='/dog-meme.png' alt='' />               
             </div>
-
-            <div>
-                <label>Bottom Text</label>
-                <input className={classes.bottom}type="text" name="bottomtext" placeholder="Enter bottom text here" />
+            <div className={classes.input_field}>
+            <div className={classes.top_text}>
+                <label htmlFor='toptext'>Top Text</label>
+                <input className={classes.top} id='toptext' type="text" name="toptext" placeholder="Enter top text here" />
             </div>
-
+            <div className={classes.bottom_text}>
+                <label htmlFor='bottomtext'>Bottom Text</label>
+                <input  className={classes.bottom} id='bottomtext' type="text" name="bottomtext" placeholder="Enter bottom text here" />
+            </div>
+            </div>
             <button className={classes.button} type="submit">Get meme image 🖼️</button>
       </form>
     </div>
