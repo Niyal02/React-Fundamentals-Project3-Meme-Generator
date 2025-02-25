@@ -1,0 +1,22 @@
+{
+    "data":[
+        {
+
+            "id": 1,
+            "name": "Drake Hotline Bling",
+            "url": "https://imgflip.com/s/meme/Drake-Hotline-Bling.jpg",
+            "width": 1200,
+            "height": 1200,
+            "box_count": 2
+        },
+        {
+
+            "id": 2,
+            "name": "Airplane Meme",
+            "url": "https://imgs.search.brave.com/e_WfplWDyOGuTyA3bNuwAd3rX2U2QNvAI1bp8p01ARU/rs:fit:860:0:0:0/g:ce/aHR0cHM6Ly9pLnBp/bmltZy5jb20vb3Jp/Z2luYWxzL2I1LzI4/LzU5L2I1Mjg1OTQ4/OTBhODI4MDA2NTJh/MWIwOWM2ZDU2NmQw/LmpwZw",
+            "width": 1200,
+            "height": 1200,
+            "box_count": 1
+        }
+    ]
+}
